@@ -1,0 +1,121 @@
+body{
+    background-color: antiquewhite;
+}
+.clock-box{
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    height: 350px;
+    width: 350px;
+    background-color: rgb(226, 226, 250);
+    border: 13px solid rgb(53, 38, 138);
+    border-radius: 50%;
+}
+
+.hour-hand{
+    width: 90px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 49%;
+    left: 26%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+}
+
+.minute-hand{
+    width: 120px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 49%;
+    left: 18%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+}
+
+.second-hand{
+    width: 130px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 49%;
+    left: 15%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.5s cubic-bezier(0, 2, 0.58, 1);
+}
+
+.text{
+    font-size: 30px;
+}
+#text1{
+    position: absolute;
+    top: -2%;
+    left: 72%;
+}
+#text2{
+    position: absolute;
+    top: 13%;
+    left: 87%;
+}
+#text3{
+    position: absolute;
+    top: 35%;
+    left: 92%;
+}
+#text4{
+    position: absolute;
+    top: 56%;
+    right: 7%;
+}
+#text5{
+    position: absolute;
+    top: 74%;
+    right: 24%;
+}
+#text6{
+    position: absolute;
+    bottom: -7%;
+    left: 49%;
+}
+#text7{
+    position: absolute;
+    left: 25%;
+    top: 74%;
+}
+#text8{
+    position: absolute;
+    top: 56%;
+    left: 8%;
+}
+#text9{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+}
+#text10{
+    position: absolute;
+    top: 13%;
+    left: 7%;
+}
+#text11{
+    position: absolute;
+    top: -3%;
+    left: 25%;
+}
+#text12{
+    position: absolute;
+    top: -8%;
+    left: 49%;
+}
+
+.center{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(92, 33, 33);
+    left: 50%;
+    top: 47%;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trial</title>
+    <link rel="stylesheet" href="StudentData.css">
+    <script src="StudentData.js"></script>
+</head>
+
+<body class="all">
+
+    <h1 id="heading">Student Registration Form</h1>
+    <h2 id="enter">Enter the following information :</h2>
+
+    <form action="" autocomplete="off">
+        <div>
+            <p class="pstyle">1) Enter your Name : </p>
+            <input type="text" class="istyle" id="name" placeholder="Name">
+        </div>
+
+        <div class="inputs">
+            <p class="pstyle">2) Enter your Mobile number : </p>
+            <input type="text" class="istyle" placeholder="mobile no." id="mobno">
+        </div>
+
+        <div>
+            <p class="pstyle">3) Enter your Roll no. : </p>
+            <input type="text" class="istyle" placeholder="roll no." id="roll">
+        </div>
+
+        <div class="inputs" id="fourth">
+            <p class="pstyle">4) Enter your Branch : </p>
+            <input type="text" class="istyle" placeholder="branch" id="branch">
+        </div>
+   
+        <input type="reset" class="buth">
+    </form>
+
+    <button class="button" onclick="addStudent()"> Add </button>
+
+    <table class="tble" border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th class="row">Name</th>
+                <th class="row">Mobile no.</th>
+                <th class="row">Roll number</th>
+                <th class="row">Branch</th>
+                <th class="row">Action</th>
+            </tr>
+        </thead>
+        <tbody id="data" class="row">
+
+        </tbody>
+    </table>
+</body>
+
+</html>
