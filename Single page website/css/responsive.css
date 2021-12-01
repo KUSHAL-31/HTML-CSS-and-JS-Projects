@@ -1,0 +1,148 @@
+@media only screen and (max-width:1075px){
+
+    /* Font size for paragraphs and heading */
+    .text-big{
+        font-size: 28px;
+    }
+
+    .text-small{
+        font-size: 15px;
+    }
+
+    .tag{
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .sub{
+        text-align: justify;
+    }
+
+    /* Navigation menu modification */
+
+    .navbar{
+        height: 470px;
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .right-search{
+        text-align: center;
+        width: 50%;
+    }
+
+    #search{
+        width: 100%;
+    }
+
+    .nav-list a:hover{
+        background-color: gray;
+    }
+
+    .nav-list li a::after{
+        display: none;
+    }
+    
+    .nav-list li a::before{
+       display: none;
+    }
+
+    /* Home section modification */
+
+    .first-section{
+        height: 100vh;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    
+    .thumbnail img{
+        width: 200px;
+    }
+
+    .h-nav-resp{
+        height: 66px;
+    }
+
+    .v-resp{
+        opacity: 0;
+    }
+
+    /* second section about info */
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .first{
+        text-align: center;
+    }
+
+    .first p{
+        text-align: justify;
+    }
+
+    
+    .thumbnail img{
+        width: 200px;
+    }
+
+    .Section{
+        flex-direction: column-reverse;
+        padding: 0px;
+        max-width: 95%;
+        padding: 30px 0px;
+    }
+
+    .thumbnail{
+        margin: 0px;
+    }
+
+    /* Button modification */
+
+    .buttons{
+        margin-top: 10px;
+    }
+
+    .btn{
+        font-size: 15px;
+    }
+    
+    .btn-sm{
+        font-size: 12px;
+    }
+    
+    .btn-style{
+        font-size: 15px;
+    }
+
+    /* Contact us form */
+
+    .contact{
+        height: 545px;
+    }
+
+    .form{
+        max-width: 80%
+    }
+
+    .form input , #doubt{
+        font-size: 15px;
+    }
+
+    .text-footer{
+        padding: 5px 0px;
+        font-size: 12px;
+    }
+}
