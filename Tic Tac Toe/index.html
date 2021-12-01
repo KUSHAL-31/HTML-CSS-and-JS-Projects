@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header class="logo">
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <div class="container">
+        <div class="game__container">
+            <div class="line"></div>
+            <div class="game__box bt-0 bl-0"><span class="box__text"></span></div>
+            <div class="game__box bt-0"><span class="box__text"></span></div>
+            <div class="game__box bt-0 br-0"><span class="box__text"></span></div>
+            <div class="game__box bl-0"><span class="box__text"></span></div>
+            <div class="game__box"><span class="box__text"></span></div>
+            <div class="game__box br-0"><span class="box__text"></span></div>
+            <div class="game__box bl-0 bb-0"><span class="box__text"></span></div>
+            <div class="game__box bb-0"><span class="box__text"></span></div>
+            <div class="game__box bb-0 br-0"><span class="box__text"></span></div>
+        </div>
+        <div class="info__container">
+            <div class="info__box">
+                <div class="game__info">
+                    <p class="created__by">Game created by - Kushal31</p>
+                    <p class="winner_info">Current turn - <span>X</span></p>
+                    <button id="btn">Reset</button>
+                </div>
+                <div class="win__emote">
+                    <img src="assets/excited.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/index.js"></script>
+</body>
+
+</html>
