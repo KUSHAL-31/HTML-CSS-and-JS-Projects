@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* ------------------Left side app icons --------------*/
+
+.leftside{
+    position: absolute;
+    width: 30%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.apps{
+    border: 1px solid transparent;
+    width: 20%;
+    margin: 20px 0px;
+}
+.apps:hover{
+    border: 1px solid white;
+    background-color: rgba(71, 72, 78, 0.685);
+}
+
+.apps img{
+    margin-left: 17px;
+    height: 52px;
+}
+
+.apps p{
+    font-family: 'Benne', serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+
+/* --------------Right side apps icon----------------- */
+
+.rightside{
+    position: absolute;
+    width: 30%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightside .apps{
+    margin-left: 367px;
+}
+
+
+/* --------------------Task bar ----------------------*/
+
+.taskbar{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background-color: #1c1c1c;
+    height: 45px;
+    width: 100%;
+}
+
+.flex-left{
+    display: flex;
+}
+
+.items{
+    z-index: 50;
+    width: 48px;
+}
+
+.items img{
+    margin-top: 8px;
+    margin-left: 11px;
+    height: 25px;
+}
+
+#item3 img{
+    margin-top: 6px;
+    height: 26px;
+}
+
+#item4 img{
+    margin-top: 6px;
+    height: 28px;
+}
+
+#item5 img{
+    margin-top: 6px;
+    height: 28px;
+}
+
+.items:hover{
+    background-color: rgb(65, 65, 65);
+}
+
+.time{
+    position: absolute;
+    right: 0;
+}
+
+.time img{
+    margin-top: 3px;
+    height: 36px;
+}
+/* --------Start menu---------- */
+
+.startMenu img{
+    height: 80vh;
+}
+
+.startMenu{
+    position: absolute;
+    bottom: -720px;
+}
+
+/* ------------ SEARCH MENU----------------- */
+.searchMenu{
+    position: absolute;
+    left: 47px;
+    bottom: -700px;
+}
+
+.searchMenu img{
+    height: 75vh;
+}
+
+/* --------- Folder Menu------------- */
+.folderMenu img{
+    height: 95vh;
+}
+
+.folderMenu{
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+}
+
+
